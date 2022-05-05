@@ -1,0 +1,49 @@
+1.What makes NumPy.shape() different from NumPy.size?
+     Shape() is used to get complete structural shape of our 2D array.For example (3,4).np.size() will give us how many elements are present in total.
+
+2.In NumPy, describe the idea of broadcasting?
+     The term broadcasting refers to the ability of NumPy to treat artables we have  rays of different shapes during arithmetic operations.
+     Arithmetic operations on arrays are usually done on corresponding elements.
+     If two arrays are of exactly the same shape,then these operations are smoothly performed.
+
+3.What makes Python better than other libraries for numerical computation?
+      	One of the key features of python is its numerous libraries and packages . In this article ,we will list down the popular packages and libraries in python that are being widely used for numeric and scientific applications.
+    1.SciPy(scientific Numeric Library)
+        Officially released in 2000-01,SciPy is free and open source library used for scientific computing and technical computing.The library consists of modules for optimisation,image processing,FFT,special functions and signal processing. The sciPy package includes algorithms and functions which are the cruX of python scientific computing capabilities.The sub-package includes:
+The sub-package includes:
+* io:used for the standard input and output
+*lib:this function is used to wrap python external libraries
+*signal:used for processing signal tools
+*sparse:used for algorithms related ti sparse matrix
+spatial:widely used to determine paths in KD-tress,nearest neighbor and distance functions. 
+*optimise:used to optimise algorithms which include linear programming.
+*linals:used for the regular linear algebra applications.
+*interpolate:used for the integration of numerical tools
+*intergate:applied for integration of numerical tools
+*fftpack:this subpackage helps for the discretion fourier to transform algorithms 
+*cluster:the package consists of hierarchical clustering,vector quantisation,and K-means.
+*misc:used for the miscellaneous utility applications.
+*special:used to switch in special functions.
+*weave:a tool to convert c/c++ codes to python programming.
+    2.pandas(Data Analytics Library)
+       Pandas is the most important data analysis library of python.Being open source ,it is used for analysing data with python.It can take data formats of CSV or TSV files ,or a SQL database and convert it into python data frames with rows and coloumns which is similar to tables in statistical formats.The package makes comparisons with dictionaries with the aid of 'for' loops which atre very easy to understand and operate.
+*Import pandas as pd (importing pandas library to memory ),it is highly suggested to import the library as pd because next time when we want to use the application we need not mention the package full name instead we can name as pd,this avoids confusion.
+*pd.read-filetype()(to open the desired file)
+*pd.DataFrame()(to convert a specified python object)
+*df.to-filetype (filename) (to save a data frame you are currently working with)
+      The advantage of using pandas is that it can perform a bunch of functions on the tables we have created.The following are some functions that can be performed on selected data frames.
+*df.median()-to get the median of each column
+*df.mean()-to get the mean of all columns
+*df.max()-to get the highest value of a column
+*df.min()-to get the minimum value of a column
+*df.std()-to get the standard deviation of each column.
+*df.corr()-to specify the relationship between columns of a data frame.
+*df.count()-to get the number of non-null values in each column of the data frame.
+4.How does Numpy deal with files?
+    Numpy introduces a simple file format for ndarray objects.This npy file stores data,shape,dtype,and other information required to reconstruct the ndarray in a disk file such that the array is correctly retrieved even if the file is on another machine with different architecture.
+
+5.Mention the importance of Numpy.empty().
+    The empty () function is used to create a new array of given shape and type, without initializing entries.Shape of the empty array, e.g.,(2,3) or 2.Desired output data-type for the array,e.g, numpy. int8.
+
+           
+ 
